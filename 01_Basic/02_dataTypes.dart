@@ -16,4 +16,12 @@ void main(){
   bool isMaried = false;
   bool isActive = true;
   print('¿Estas casado?: ${isMaried ? 'Si' : 'No'}. ¿Eres activo? ${isActive ? 'Si' : 'No'}');
+
+  /* Tipos de datos Listas */
+  List<String> villainNames = ['Lex', 'Red Skull', 'Doom'];
+  print('Lista inicial');
+  villainNames.forEach(print);
+  villainNames[0] = 'Thanos';
+  print('Lista despues del cambio');
+  villainNames.forEach(print);
 }
