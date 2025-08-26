@@ -11,4 +11,9 @@ void main(){
   Aqui podemos escribir muchas lineas de codigo
   Esto tiene muchas ventajas para construir mensajes personalizados muchos mensajes.""";
   print('Nombre: $name Apellido: $lastName Mensaje: $message');
+
+  /* Tipos de datos Boolean */
+  bool isMaried = false;
+  bool isActive = true;
+  print('¿Estas casado?: ${isMaried ? 'Si' : 'No'}. ¿Eres activo? ${isActive ? 'Si' : 'No'}');
 }
