@@ -24,4 +24,12 @@ void main(){
   villainNames[0] = 'Thanos';
   print('Lista despues del cambio');
   villainNames.forEach(print);
+
+  /* Tipos de datos Sets */
+  Set<String> heroes = {'Capitan America', 'Iron Man', 'Thor'};
+  print('Set inicial');
+  print(heroes);
+  heroes.add('Hulk');
+  print('Set despues del cambio');
+  print(heroes);
 }
