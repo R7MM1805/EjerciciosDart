@@ -32,4 +32,23 @@ void main(){
   heroes.add('Hulk');
   print('Set despues del cambio');
   print(heroes);
+
+  /* Tipos de datos Maps */
+  Map<String, dynamic> ironMan = {
+    'name': 'Tony Stark',
+    'power': 'Inteligencia y dinero',
+    'level': 9000
+  };
+  print(ironMan['name']);
+  print(ironMan['power']);
+  print(ironMan['level']);
+  Map<String, dynamic> capitan = new Map();
+  capitan.addAll(
+    {
+      'name':'Steve Rogers', 
+      'power':'Fuerza', 
+      'level':5000
+    }
+  );
+  print(capitan);
 }
