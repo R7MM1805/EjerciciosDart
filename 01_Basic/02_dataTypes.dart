@@ -15,6 +15,7 @@ void main(){
   /* Tipos de datos Boolean */
   bool isMaried = false;
   bool isActive = true;
+  // ignore: dead_code
   print('¿Estas casado?: ${isMaried ? 'Si' : 'No'}. ¿Eres activo? ${isActive ? 'Si' : 'No'}');
 
   /* Tipos de datos Listas */
