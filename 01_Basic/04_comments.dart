@@ -7,7 +7,7 @@ void main(){
   //Este es un listado de nombres de personas
   final people = ['Ricardo', 'Rosa', 'Álvaro'];
   */
-
+  
 }
 
 // Name: persona que deseo saludar
