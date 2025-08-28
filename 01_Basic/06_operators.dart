@@ -23,8 +23,10 @@ void main(){
   //Operadores de tipo
   int i = 10;
   String j = '10';
+  // ignore: unnecessary_type_check
   print( i is int );
   print( j is int );
   print( i is String);
+  // ignore: unnecessary_type_check
   print( j is String);
 }
