@@ -1,7 +1,7 @@
 void main() {
   gretting('Buenos días', name: 'Ricardo');
-  gretting('Buenas tardes');
-  gretting('Buenas noches', age: 30);
+  gretting('Buenas tardes', name: 'Rosa');
+  gretting('Buenas noches', age: 30, name: 'Álvaro');
 }
 
-void gretting(String message, {String name = '', int age = 0}) => print('$message $name. Tengo $age años');
+void gretting(String message, {required String name, int age = 0}) => print('$message $name. Tengo $age años');
