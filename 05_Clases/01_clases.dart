@@ -1,16 +1,9 @@
+import 'Classes/Person.dart';
+
 void main(){
   Person person = new Person();
-  person.name = 'Ricardo';
-  print(person.toString());
-}
-
-class Person{
-  String? name;
-  int? age;
-  String? bio;
-
-  @override
-  String toString() {
-    return 'Nombre: $name - Edad: $age';
-  }
+  person..name = 'Ricardo'
+        ..age  = 30
+        ..bio  = 'Nacio en Lima';
+  print(person);
 }
